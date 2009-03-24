@@ -1,0 +1,12 @@
+OpenAIM Ruby Library
+
+Very basic. Only has Presence API for now. For more info on OpenAIM Presence API, check out http://dev.aol.com/aim/presence
+
+
+Example:
+require 'rubygems'
+require 'openaim'
+
+presence = OpenAIM::Presence.new('YOUR OPEN AIM API KEY')
+user = presence.get('aim_username')
+puts "User is #{user.status}"
