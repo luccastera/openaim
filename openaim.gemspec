@@ -10,10 +10,10 @@ Gem::Specification.new do |s|
   s.email = "luc.castera@gmail.com"
   s.homepage = "http://github.com/dambalah/openaim"
   s.require_path = "lib"
-  s.add_dependency('xmlsimple', '>= 1.0.11')
+  s.add_dependency('xml-simple', '>= 1.0.11')
  
   s.files = [
-    "README.md",
+    "README",
     "lib/openaim.rb",
     "lib/openaim/presence.rb",
     "openaim.gemspec"
