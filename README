@@ -2,6 +2,7 @@ OpenAIM Ruby Library
 
 Very basic. Only has Presence API for now. For more info on OpenAIM Presence API, check out http://dev.aol.com/aim/presence
 
+Disclaimer: I don't have the need for more than the presence API now so I don't intend to add more than that functionality to the gem.
 
 Example:
 require 'rubygems'
